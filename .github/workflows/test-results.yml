@@ -1,4 +1,6 @@
+# Workflow to retrieve test results from 'test' workflow into pull-requests
 # see : https://github.com/EnricoMi/publish-unit-test-result-action/blob/v2.20.0/README.md#support-fork-repositories-and-dependabot-branches
+
 name: Test Results
 
 on:
