@@ -1,5 +1,5 @@
-# bump: debian-buster-slim /FROM debian:(.*)/ docker:debian|/^buster-.*-slim/|sort
-FROM debian:buster-20240612-slim
+# bump: debian-trixie-slim /FROM debian:(.*)/ docker:debian|/^trixie-.*-slim/|sort
+FROM debian:trixie-20250811-slim
 MAINTAINER Mattias Wadman mattias.wadman@gmail.com
 
 # Use archive sources for debian 10 (buster)
